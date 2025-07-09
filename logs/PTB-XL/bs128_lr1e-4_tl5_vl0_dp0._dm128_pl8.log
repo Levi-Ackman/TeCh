@@ -1,0 +1,714 @@
+A total 96 CPUs are used, making sure that num_worker is small than the number of CPUs
+Use GPU: cuda:0
+>>>>>>>start training : TeCh_PTB-XL_seed_42_dm_128_dp_0.0_tl_5_vl_0_bs_128_lr0.0001_aug_flip0.,frequency0.,jitter0.,mask0.2,channel0.4,drop0.4_pl_8>>>>>>>>>>>>>>>>>>>>>>>>>>
+(112570, 250, 12)
+(112570,)
+(39280, 250, 12)
+(39280,)
+(39550, 250, 12)
+(39550,)
+Epoch: 1 cost time: 26.89032006263733
+Epoch: 1, Steps: 880, | Train Loss: 1.03485
+Validation results --- Loss: 0.90655, Accuracy: 0.67187, Precision: 0.66570, Recall: 0.48305, F1: 0.48335, AUROC: 0.86034, AUPRC: 0.59239
+Test results --- Loss: 0.92351, Accuracy: 0.66566, Precision: 0.58138, Recall: 0.47396 F1: 0.47663, AUROC: 0.85300, AUPRC: 0.57120
+Metric score decreased (inf --> -0.483347).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 18.893821477890015
+Epoch: 2, Steps: 880, | Train Loss: 0.88556
+Validation results --- Loss: 0.81747, Accuracy: 0.70820, Precision: 0.66429, Recall: 0.54237, F1: 0.55386, AUROC: 0.87547, AUPRC: 0.63304
+Test results --- Loss: 0.84024, Accuracy: 0.70422, Precision: 0.64620, Recall: 0.53498 F1: 0.54471, AUROC: 0.87007, AUPRC: 0.61195
+Metric score decreased (-0.483347 --> -0.553860).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 3 cost time: 16.557413578033447
+Epoch: 3, Steps: 880, | Train Loss: 0.84344
+Validation results --- Loss: 0.79233, Accuracy: 0.71774, Precision: 0.65791, Recall: 0.56437, F1: 0.58565, AUROC: 0.88412, AUPRC: 0.65274
+Test results --- Loss: 0.82095, Accuracy: 0.70915, Precision: 0.64600, Recall: 0.55071 F1: 0.56991, AUROC: 0.87824, AUPRC: 0.63230
+Metric score decreased (-0.553860 --> -0.585652).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 4 cost time: 16.847849369049072
+Epoch: 4, Steps: 880, | Train Loss: 0.81067
+Validation results --- Loss: 0.76254, Accuracy: 0.72772, Precision: 0.66420, Recall: 0.58781, F1: 0.60622, AUROC: 0.89128, AUPRC: 0.66973
+Test results --- Loss: 0.78739, Accuracy: 0.72005, Precision: 0.65823, Recall: 0.57528 F1: 0.59301, AUROC: 0.88600, AUPRC: 0.64945
+Metric score decreased (-0.585652 --> -0.606223).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 5 cost time: 17.721431732177734
+Epoch: 5, Steps: 880, | Train Loss: 0.78960
+Validation results --- Loss: 0.74862, Accuracy: 0.73266, Precision: 0.67300, Recall: 0.58327, F1: 0.60129, AUROC: 0.89423, AUPRC: 0.67214
+Test results --- Loss: 0.77712, Accuracy: 0.72346, Precision: 0.66764, Recall: 0.57099 F1: 0.58895, AUROC: 0.88831, AUPRC: 0.65283
+EarlyStopping counter: 1 out of 20
+Updating learning rate to 0.0001
+Epoch: 6 cost time: 16.98972201347351
+Epoch: 6, Steps: 880, | Train Loss: 0.77088
+Validation results --- Loss: 0.74817, Accuracy: 0.73238, Precision: 0.66590, Recall: 0.59285, F1: 0.61425, AUROC: 0.89649, AUPRC: 0.68022
+Test results --- Loss: 0.77427, Accuracy: 0.72807, Precision: 0.66942, Recall: 0.58398 F1: 0.60631, AUROC: 0.89139, AUPRC: 0.66155
+Metric score decreased (-0.606223 --> -0.614255).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 7 cost time: 19.00642228126526
+Epoch: 7, Steps: 880, | Train Loss: 0.75143
+Validation results --- Loss: 0.74822, Accuracy: 0.73355, Precision: 0.66903, Recall: 0.59973, F1: 0.62123, AUROC: 0.89827, AUPRC: 0.67934
+Test results --- Loss: 0.77946, Accuracy: 0.72673, Precision: 0.65966, Recall: 0.58618 F1: 0.60729, AUROC: 0.89209, AUPRC: 0.66063
+Metric score decreased (-0.614255 --> -0.621231).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 8 cost time: 16.806179523468018
+Epoch: 8, Steps: 880, | Train Loss: 0.73741
+Validation results --- Loss: 0.72684, Accuracy: 0.73964, Precision: 0.66665, Recall: 0.61730, F1: 0.63609, AUROC: 0.90264, AUPRC: 0.69180
+Test results --- Loss: 0.75942, Accuracy: 0.73274, Precision: 0.65700, Recall: 0.60321 F1: 0.62220, AUROC: 0.89537, AUPRC: 0.66965
+Metric score decreased (-0.621231 --> -0.636087).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 9 cost time: 17.734888553619385
+Epoch: 9, Steps: 880, | Train Loss: 0.72445
+Validation results --- Loss: 0.72693, Accuracy: 0.73796, Precision: 0.68052, Recall: 0.60210, F1: 0.61889, AUROC: 0.90321, AUPRC: 0.68777
+Test results --- Loss: 0.76183, Accuracy: 0.73107, Precision: 0.66696, Recall: 0.58896 F1: 0.60370, AUROC: 0.89504, AUPRC: 0.66521
+EarlyStopping counter: 1 out of 20
+Updating learning rate to 0.0001
+Epoch: 10 cost time: 21.356221914291382
+Epoch: 10, Steps: 880, | Train Loss: 0.70620
+Validation results --- Loss: 0.71723, Accuracy: 0.74491, Precision: 0.68101, Recall: 0.60720, F1: 0.62500, AUROC: 0.90581, AUPRC: 0.69218
+Test results --- Loss: 0.75116, Accuracy: 0.73785, Precision: 0.67300, Recall: 0.59537 F1: 0.61272, AUROC: 0.89803, AUPRC: 0.67420
+EarlyStopping counter: 2 out of 20
+Updating learning rate to 0.0001
+Epoch: 11 cost time: 17.217424631118774
+Epoch: 11, Steps: 880, | Train Loss: 0.69690
+Validation results --- Loss: 0.71209, Accuracy: 0.74389, Precision: 0.69834, Recall: 0.60976, F1: 0.62145, AUROC: 0.90702, AUPRC: 0.69668
+Test results --- Loss: 0.75111, Accuracy: 0.73348, Precision: 0.67120, Recall: 0.59476 F1: 0.60413, AUROC: 0.89770, AUPRC: 0.66992
+EarlyStopping counter: 3 out of 20
+Updating learning rate to 0.0001
+Epoch: 12 cost time: 17.685919523239136
+Epoch: 12, Steps: 880, | Train Loss: 0.69018
+Validation results --- Loss: 0.72290, Accuracy: 0.74203, Precision: 0.67499, Recall: 0.61497, F1: 0.62880, AUROC: 0.90600, AUPRC: 0.69683
+Test results --- Loss: 0.75895, Accuracy: 0.73054, Precision: 0.65048, Recall: 0.59941 F1: 0.61140, AUROC: 0.89792, AUPRC: 0.66831
+EarlyStopping counter: 4 out of 20
+Updating learning rate to 0.0001
+Epoch: 13 cost time: 16.639950037002563
+Epoch: 13, Steps: 880, | Train Loss: 0.67967
+Validation results --- Loss: 0.73977, Accuracy: 0.74282, Precision: 0.68969, Recall: 0.59888, F1: 0.62493, AUROC: 0.90601, AUPRC: 0.69219
+Test results --- Loss: 0.77835, Accuracy: 0.73373, Precision: 0.66705, Recall: 0.58342 F1: 0.60751, AUROC: 0.89827, AUPRC: 0.66949
+EarlyStopping counter: 5 out of 20
+Updating learning rate to 0.0001
+Epoch: 14 cost time: 18.472649335861206
+Epoch: 14, Steps: 880, | Train Loss: 0.66902
+Validation results --- Loss: 0.71401, Accuracy: 0.74526, Precision: 0.68600, Recall: 0.60873, F1: 0.62619, AUROC: 0.90743, AUPRC: 0.69331
+Test results --- Loss: 0.75418, Accuracy: 0.73659, Precision: 0.67411, Recall: 0.59647 F1: 0.61340, AUROC: 0.89815, AUPRC: 0.66975
+EarlyStopping counter: 6 out of 20
+Updating learning rate to 0.0001
+Epoch: 15 cost time: 16.822972536087036
+Epoch: 15, Steps: 880, | Train Loss: 0.65568
+Validation results --- Loss: 0.72021, Accuracy: 0.74560, Precision: 0.68792, Recall: 0.61362, F1: 0.63761, AUROC: 0.90785, AUPRC: 0.69837
+Test results --- Loss: 0.76008, Accuracy: 0.73616, Precision: 0.66971, Recall: 0.59633 F1: 0.61854, AUROC: 0.89927, AUPRC: 0.67462
+Metric score decreased (-0.636087 --> -0.637609).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 16 cost time: 19.283040046691895
+Epoch: 16, Steps: 880, | Train Loss: 0.65270
+Validation results --- Loss: 0.71476, Accuracy: 0.74585, Precision: 0.68338, Recall: 0.62512, F1: 0.64320, AUROC: 0.90971, AUPRC: 0.70151
+Test results --- Loss: 0.76537, Accuracy: 0.73507, Precision: 0.66414, Recall: 0.60619 F1: 0.62257, AUROC: 0.90000, AUPRC: 0.67245
+Metric score decreased (-0.637609 --> -0.643202).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 17 cost time: 23.760156869888306
+Epoch: 17, Steps: 880, | Train Loss: 0.64390
+Validation results --- Loss: 0.72907, Accuracy: 0.74450, Precision: 0.68360, Recall: 0.60774, F1: 0.62074, AUROC: 0.90501, AUPRC: 0.68623
+Test results --- Loss: 0.76900, Accuracy: 0.73623, Precision: 0.66221, Recall: 0.59637 F1: 0.60720, AUROC: 0.89760, AUPRC: 0.66389
+EarlyStopping counter: 1 out of 20
+Updating learning rate to 0.0001
+Epoch: 18 cost time: 22.947772979736328
+Epoch: 18, Steps: 880, | Train Loss: 0.62903
+Validation results --- Loss: 0.70869, Accuracy: 0.75043, Precision: 0.67726, Recall: 0.63822, F1: 0.65245, AUROC: 0.90914, AUPRC: 0.70355
+Test results --- Loss: 0.75211, Accuracy: 0.73520, Precision: 0.65074, Recall: 0.61438 F1: 0.62740, AUROC: 0.90147, AUPRC: 0.67509
+Metric score decreased (-0.643202 --> -0.652447).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 19 cost time: 22.13207173347473
+Epoch: 19, Steps: 880, | Train Loss: 0.62190
+Validation results --- Loss: 0.72857, Accuracy: 0.74521, Precision: 0.69165, Recall: 0.60210, F1: 0.61731, AUROC: 0.90657, AUPRC: 0.69173
+Test results --- Loss: 0.76747, Accuracy: 0.73527, Precision: 0.67453, Recall: 0.59178 F1: 0.60649, AUROC: 0.89946, AUPRC: 0.67321
+EarlyStopping counter: 1 out of 20
+Updating learning rate to 0.0001
+Epoch: 20 cost time: 22.206707239151
+Epoch: 20, Steps: 880, | Train Loss: 0.60820
+Validation results --- Loss: 0.74402, Accuracy: 0.74425, Precision: 0.66752, Recall: 0.63870, F1: 0.65124, AUROC: 0.90586, AUPRC: 0.69367
+Test results --- Loss: 0.79090, Accuracy: 0.72829, Precision: 0.64373, Recall: 0.61117 F1: 0.62479, AUROC: 0.89669, AUPRC: 0.66627
+EarlyStopping counter: 2 out of 20
+Updating learning rate to 0.0001
+>>>>>>>testing : TeCh_PTB-XL_seed_42_dm_128_dp_0.0_tl_5_vl_0_bs_128_lr0.0001_aug_flip0.,frequency0.,jitter0.,mask0.2,channel0.4,drop0.4_pl_8<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Model weights deleted....
+Validation results --- Loss: 0.70873, Accuracy: 0.75043, Precision: 0.67726, Recall: 0.63822, F1: 0.65245, AUROC: 0.90914, AUPRC: 0.70355
+Test results --- Loss: 0.75211, Accuracy: 0.73520, Precision: 0.65074, Recall: 0.61438, F1: 0.62740, AUROC: 0.90147, AUPRC: 0.67509
+
+Use GPU: cuda:0
+>>>>>>>start training : TeCh_PTB-XL_seed_43_dm_128_dp_0.0_tl_5_vl_0_bs_128_lr0.0001_aug_flip0.,frequency0.,jitter0.,mask0.2,channel0.4,drop0.4_pl_8>>>>>>>>>>>>>>>>>>>>>>>>>>
+(112570, 250, 12)
+(112570,)
+(39280, 250, 12)
+(39280,)
+(39550, 250, 12)
+(39550,)
+Epoch: 1 cost time: 19.75579810142517
+Epoch: 1, Steps: 880, | Train Loss: 1.03158
+Validation results --- Loss: 0.89537, Accuracy: 0.67500, Precision: 0.62265, Recall: 0.49694, F1: 0.51479, AUROC: 0.85797, AUPRC: 0.59068
+Test results --- Loss: 0.91545, Accuracy: 0.66475, Precision: 0.58224, Recall: 0.47728 F1: 0.48956, AUROC: 0.84950, AUPRC: 0.56717
+Metric score decreased (inf --> -0.514795).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 20.060647010803223
+Epoch: 2, Steps: 880, | Train Loss: 0.89201
+Validation results --- Loss: 0.83716, Accuracy: 0.69997, Precision: 0.65272, Recall: 0.54398, F1: 0.56422, AUROC: 0.87498, AUPRC: 0.63288
+Test results --- Loss: 0.85830, Accuracy: 0.69431, Precision: 0.65154, Recall: 0.53170 F1: 0.54826, AUROC: 0.87020, AUPRC: 0.61723
+Metric score decreased (-0.514795 --> -0.564224).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 3 cost time: 20.796302318572998
+Epoch: 3, Steps: 880, | Train Loss: 0.84629
+Validation results --- Loss: 0.80418, Accuracy: 0.71466, Precision: 0.64177, Recall: 0.57350, F1: 0.59340, AUROC: 0.88128, AUPRC: 0.64815
+Test results --- Loss: 0.82543, Accuracy: 0.71034, Precision: 0.63949, Recall: 0.56411 F1: 0.58303, AUROC: 0.87705, AUPRC: 0.63308
+Metric score decreased (-0.564224 --> -0.593397).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 4 cost time: 20.32472038269043
+Epoch: 4, Steps: 880, | Train Loss: 0.82014
+Validation results --- Loss: 0.77659, Accuracy: 0.72556, Precision: 0.66154, Recall: 0.58755, F1: 0.60779, AUROC: 0.88888, AUPRC: 0.66599
+Test results --- Loss: 0.80250, Accuracy: 0.71595, Precision: 0.64991, Recall: 0.57349 F1: 0.59260, AUROC: 0.88301, AUPRC: 0.64642
+Metric score decreased (-0.593397 --> -0.607785).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 5 cost time: 20.303723573684692
+Epoch: 5, Steps: 880, | Train Loss: 0.79216
+Validation results --- Loss: 0.76398, Accuracy: 0.72874, Precision: 0.71553, Recall: 0.56591, F1: 0.57406, AUROC: 0.89496, AUPRC: 0.67069
+Test results --- Loss: 0.79271, Accuracy: 0.72131, Precision: 0.70072, Recall: 0.55853 F1: 0.56809, AUROC: 0.88732, AUPRC: 0.65384
+EarlyStopping counter: 1 out of 20
+Updating learning rate to 0.0001
+Epoch: 6 cost time: 20.365270137786865
+Epoch: 6, Steps: 880, | Train Loss: 0.78004
+Validation results --- Loss: 0.74085, Accuracy: 0.73363, Precision: 0.67759, Recall: 0.59083, F1: 0.60724, AUROC: 0.89725, AUPRC: 0.67838
+Test results --- Loss: 0.76959, Accuracy: 0.72822, Precision: 0.68046, Recall: 0.58311 F1: 0.60059, AUROC: 0.89017, AUPRC: 0.65963
+EarlyStopping counter: 2 out of 20
+Updating learning rate to 0.0001
+Epoch: 7 cost time: 20.08815574645996
+Epoch: 7, Steps: 880, | Train Loss: 0.75797
+Validation results --- Loss: 0.73979, Accuracy: 0.73674, Precision: 0.68345, Recall: 0.60575, F1: 0.62154, AUROC: 0.90069, AUPRC: 0.68579
+Test results --- Loss: 0.77052, Accuracy: 0.72981, Precision: 0.67084, Recall: 0.59251 F1: 0.60707, AUROC: 0.89373, AUPRC: 0.66667
+Metric score decreased (-0.607785 --> -0.621539).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 8 cost time: 21.389360189437866
+Epoch: 8, Steps: 880, | Train Loss: 0.73855
+Validation results --- Loss: 0.75771, Accuracy: 0.73439, Precision: 0.68385, Recall: 0.59854, F1: 0.62579, AUROC: 0.90044, AUPRC: 0.68650
+Test results --- Loss: 0.79129, Accuracy: 0.72521, Precision: 0.66174, Recall: 0.57787 F1: 0.60234, AUROC: 0.89395, AUPRC: 0.66537
+Metric score decreased (-0.621539 --> -0.625788).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 9 cost time: 20.88304829597473
+Epoch: 9, Steps: 880, | Train Loss: 0.72720
+Validation results --- Loss: 0.72228, Accuracy: 0.74376, Precision: 0.68290, Recall: 0.60724, F1: 0.62832, AUROC: 0.90448, AUPRC: 0.69140
+Test results --- Loss: 0.75562, Accuracy: 0.73552, Precision: 0.66918, Recall: 0.59315 F1: 0.61344, AUROC: 0.89716, AUPRC: 0.67213
+Metric score decreased (-0.625788 --> -0.628319).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 10 cost time: 21.432477712631226
+Epoch: 10, Steps: 880, | Train Loss: 0.71687
+Validation results --- Loss: 0.71290, Accuracy: 0.74465, Precision: 0.67683, Recall: 0.61197, F1: 0.63014, AUROC: 0.90519, AUPRC: 0.69475
+Test results --- Loss: 0.74429, Accuracy: 0.73674, Precision: 0.66263, Recall: 0.59824 F1: 0.61616, AUROC: 0.89821, AUPRC: 0.67235
+Metric score decreased (-0.628319 --> -0.630141).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 11 cost time: 22.37234616279602
+Epoch: 11, Steps: 880, | Train Loss: 0.70082
+Validation results --- Loss: 0.73448, Accuracy: 0.73676, Precision: 0.65651, Recall: 0.62573, F1: 0.63767, AUROC: 0.90212, AUPRC: 0.68696
+Test results --- Loss: 0.76024, Accuracy: 0.73148, Precision: 0.64927, Recall: 0.61248 F1: 0.62630, AUROC: 0.89550, AUPRC: 0.66697
+Metric score decreased (-0.630141 --> -0.637665).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 12 cost time: 19.890823125839233
+Epoch: 12, Steps: 880, | Train Loss: 0.69081
+Validation results --- Loss: 0.72490, Accuracy: 0.74300, Precision: 0.68638, Recall: 0.59878, F1: 0.61001, AUROC: 0.90581, AUPRC: 0.68703
+Test results --- Loss: 0.75980, Accuracy: 0.73737, Precision: 0.68129, Recall: 0.59191 F1: 0.60434, AUROC: 0.89797, AUPRC: 0.66701
+EarlyStopping counter: 1 out of 20
+Updating learning rate to 0.0001
+Epoch: 13 cost time: 20.794195652008057
+Epoch: 13, Steps: 880, | Train Loss: 0.68075
+Validation results --- Loss: 0.71840, Accuracy: 0.74598, Precision: 0.68387, Recall: 0.60961, F1: 0.62677, AUROC: 0.90629, AUPRC: 0.68873
+Test results --- Loss: 0.74888, Accuracy: 0.73770, Precision: 0.66636, Recall: 0.59600 F1: 0.61189, AUROC: 0.89962, AUPRC: 0.67024
+EarlyStopping counter: 2 out of 20
+Updating learning rate to 0.0001
+Epoch: 14 cost time: 20.103250741958618
+Epoch: 14, Steps: 880, | Train Loss: 0.66592
+Validation results --- Loss: 0.73536, Accuracy: 0.74430, Precision: 0.68463, Recall: 0.59462, F1: 0.61032, AUROC: 0.90536, AUPRC: 0.68249
+Test results --- Loss: 0.76917, Accuracy: 0.73626, Precision: 0.67038, Recall: 0.58303 F1: 0.59923, AUROC: 0.89749, AUPRC: 0.66219
+EarlyStopping counter: 3 out of 20
+Updating learning rate to 0.0001
+Epoch: 15 cost time: 20.019068956375122
+Epoch: 15, Steps: 880, | Train Loss: 0.66203
+Validation results --- Loss: 0.72536, Accuracy: 0.74394, Precision: 0.68617, Recall: 0.60508, F1: 0.62562, AUROC: 0.90589, AUPRC: 0.69072
+Test results --- Loss: 0.75801, Accuracy: 0.73601, Precision: 0.66652, Recall: 0.59123 F1: 0.61011, AUROC: 0.89885, AUPRC: 0.67031
+EarlyStopping counter: 4 out of 20
+Updating learning rate to 0.0001
+Epoch: 16 cost time: 20.081252336502075
+Epoch: 16, Steps: 880, | Train Loss: 0.64784
+Validation results --- Loss: 0.72482, Accuracy: 0.74537, Precision: 0.68163, Recall: 0.62222, F1: 0.64137, AUROC: 0.90610, AUPRC: 0.69403
+Test results --- Loss: 0.75609, Accuracy: 0.73767, Precision: 0.66172, Recall: 0.60540 F1: 0.62372, AUROC: 0.89996, AUPRC: 0.67172
+Metric score decreased (-0.637665 --> -0.641366).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 17 cost time: 20.753833770751953
+Epoch: 17, Steps: 880, | Train Loss: 0.64246
+Validation results --- Loss: 0.72477, Accuracy: 0.74081, Precision: 0.68216, Recall: 0.61262, F1: 0.62787, AUROC: 0.90554, AUPRC: 0.69269
+Test results --- Loss: 0.75844, Accuracy: 0.73563, Precision: 0.66121, Recall: 0.60031 F1: 0.61311, AUROC: 0.89845, AUPRC: 0.66531
+EarlyStopping counter: 1 out of 20
+Updating learning rate to 0.0001
+Epoch: 18 cost time: 20.66469120979309
+Epoch: 18, Steps: 880, | Train Loss: 0.62912
+Validation results --- Loss: 0.72463, Accuracy: 0.74674, Precision: 0.68080, Recall: 0.62361, F1: 0.64433, AUROC: 0.90829, AUPRC: 0.69735
+Test results --- Loss: 0.76369, Accuracy: 0.73623, Precision: 0.65716, Recall: 0.60056 F1: 0.62069, AUROC: 0.90081, AUPRC: 0.66966
+Metric score decreased (-0.641366 --> -0.644329).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 19 cost time: 20.196862936019897
+Epoch: 19, Steps: 880, | Train Loss: 0.61742
+Validation results --- Loss: 0.73086, Accuracy: 0.73997, Precision: 0.66177, Recall: 0.62830, F1: 0.64033, AUROC: 0.90528, AUPRC: 0.69088
+Test results --- Loss: 0.76668, Accuracy: 0.73386, Precision: 0.64800, Recall: 0.61496 F1: 0.62669, AUROC: 0.89752, AUPRC: 0.66325
+EarlyStopping counter: 1 out of 20
+Updating learning rate to 0.0001
+Epoch: 20 cost time: 20.614202737808228
+Epoch: 20, Steps: 880, | Train Loss: 0.61469
+Validation results --- Loss: 0.73573, Accuracy: 0.74267, Precision: 0.66919, Recall: 0.61098, F1: 0.62775, AUROC: 0.90547, AUPRC: 0.68561
+Test results --- Loss: 0.76763, Accuracy: 0.73509, Precision: 0.64559, Recall: 0.59333 F1: 0.60759, AUROC: 0.89801, AUPRC: 0.66192
+EarlyStopping counter: 2 out of 20
+Updating learning rate to 0.0001
+>>>>>>>testing : TeCh_PTB-XL_seed_43_dm_128_dp_0.0_tl_5_vl_0_bs_128_lr0.0001_aug_flip0.,frequency0.,jitter0.,mask0.2,channel0.4,drop0.4_pl_8<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Model weights deleted....
+Validation results --- Loss: 0.72465, Accuracy: 0.74674, Precision: 0.68080, Recall: 0.62361, F1: 0.64433, AUROC: 0.90829, AUPRC: 0.69735
+Test results --- Loss: 0.76369, Accuracy: 0.73623, Precision: 0.65716, Recall: 0.60056, F1: 0.62069, AUROC: 0.90081, AUPRC: 0.66966
+
+Use GPU: cuda:0
+>>>>>>>start training : TeCh_PTB-XL_seed_44_dm_128_dp_0.0_tl_5_vl_0_bs_128_lr0.0001_aug_flip0.,frequency0.,jitter0.,mask0.2,channel0.4,drop0.4_pl_8>>>>>>>>>>>>>>>>>>>>>>>>>>
+(112570, 250, 12)
+(112570,)
+(39280, 250, 12)
+(39280,)
+(39550, 250, 12)
+(39550,)
+Epoch: 1 cost time: 20.674700260162354
+Epoch: 1, Steps: 880, | Train Loss: 1.03701
+Validation results --- Loss: 0.86922, Accuracy: 0.68452, Precision: 0.60526, Recall: 0.51722, F1: 0.51666, AUROC: 0.86220, AUPRC: 0.59195
+Test results --- Loss: 0.88257, Accuracy: 0.68298, Precision: 0.57363, Recall: 0.51334 F1: 0.51255, AUROC: 0.85605, AUPRC: 0.57499
+Metric score decreased (inf --> -0.516661).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 20.331986904144287
+Epoch: 2, Steps: 880, | Train Loss: 0.88097
+Validation results --- Loss: 0.81096, Accuracy: 0.71319, Precision: 0.66257, Recall: 0.56178, F1: 0.58179, AUROC: 0.87973, AUPRC: 0.64458
+Test results --- Loss: 0.83293, Accuracy: 0.70569, Precision: 0.64754, Recall: 0.54822 F1: 0.56560, AUROC: 0.87352, AUPRC: 0.62129
+Metric score decreased (-0.516661 --> -0.581794).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 3 cost time: 20.477623224258423
+Epoch: 3, Steps: 880, | Train Loss: 0.83597
+Validation results --- Loss: 0.78631, Accuracy: 0.71953, Precision: 0.67411, Recall: 0.57020, F1: 0.58800, AUROC: 0.88602, AUPRC: 0.65985
+Test results --- Loss: 0.81302, Accuracy: 0.70953, Precision: 0.66423, Recall: 0.55413 F1: 0.57009, AUROC: 0.87916, AUPRC: 0.63539
+Metric score decreased (-0.581794 --> -0.587996).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 4 cost time: 20.319730520248413
+Epoch: 4, Steps: 880, | Train Loss: 0.81320
+Validation results --- Loss: 0.78258, Accuracy: 0.72032, Precision: 0.66921, Recall: 0.57567, F1: 0.59432, AUROC: 0.88965, AUPRC: 0.66205
+Test results --- Loss: 0.80872, Accuracy: 0.71332, Precision: 0.65520, Recall: 0.56093 F1: 0.57632, AUROC: 0.88291, AUPRC: 0.64202
+Metric score decreased (-0.587996 --> -0.594323).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 5 cost time: 21.005930185317993
+Epoch: 5, Steps: 880, | Train Loss: 0.79459
+Validation results --- Loss: 0.76054, Accuracy: 0.72793, Precision: 0.67806, Recall: 0.58522, F1: 0.60513, AUROC: 0.89386, AUPRC: 0.67152
+Test results --- Loss: 0.78736, Accuracy: 0.72384, Precision: 0.67229, Recall: 0.57349 F1: 0.59032, AUROC: 0.88699, AUPRC: 0.65128
+Metric score decreased (-0.594323 --> -0.605131).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 6 cost time: 19.96722674369812
+Epoch: 6, Steps: 880, | Train Loss: 0.77856
+Validation results --- Loss: 0.75297, Accuracy: 0.73098, Precision: 0.69187, Recall: 0.58003, F1: 0.59350, AUROC: 0.89702, AUPRC: 0.67289
+Test results --- Loss: 0.77954, Accuracy: 0.72561, Precision: 0.68731, Recall: 0.57163 F1: 0.58586, AUROC: 0.88924, AUPRC: 0.65190
+EarlyStopping counter: 1 out of 20
+Updating learning rate to 0.0001
+Epoch: 7 cost time: 21.0613431930542
+Epoch: 7, Steps: 880, | Train Loss: 0.75752
+Validation results --- Loss: 0.73861, Accuracy: 0.73511, Precision: 0.67291, Recall: 0.58900, F1: 0.59660, AUROC: 0.89922, AUPRC: 0.67423
+Test results --- Loss: 0.76678, Accuracy: 0.72877, Precision: 0.67142, Recall: 0.58071 F1: 0.58958, AUROC: 0.89154, AUPRC: 0.65595
+EarlyStopping counter: 2 out of 20
+Updating learning rate to 0.0001
+Epoch: 8 cost time: 19.389694452285767
+Epoch: 8, Steps: 880, | Train Loss: 0.74296
+Validation results --- Loss: 0.74113, Accuracy: 0.73798, Precision: 0.69596, Recall: 0.58209, F1: 0.60162, AUROC: 0.90171, AUPRC: 0.68476
+Test results --- Loss: 0.77630, Accuracy: 0.72789, Precision: 0.68105, Recall: 0.56742 F1: 0.58518, AUROC: 0.89353, AUPRC: 0.66449
+EarlyStopping counter: 3 out of 20
+Updating learning rate to 0.0001
+Epoch: 9 cost time: 20.720059156417847
+Epoch: 9, Steps: 880, | Train Loss: 0.72574
+Validation results --- Loss: 0.73175, Accuracy: 0.73933, Precision: 0.67727, Recall: 0.60236, F1: 0.62676, AUROC: 0.90356, AUPRC: 0.68883
+Test results --- Loss: 0.76221, Accuracy: 0.73090, Precision: 0.66532, Recall: 0.58729 F1: 0.61046, AUROC: 0.89692, AUPRC: 0.67021
+Metric score decreased (-0.605131 --> -0.626758).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 10 cost time: 20.73333978652954
+Epoch: 10, Steps: 880, | Train Loss: 0.71403
+Validation results --- Loss: 0.72577, Accuracy: 0.73915, Precision: 0.66430, Recall: 0.62363, F1: 0.63270, AUROC: 0.90360, AUPRC: 0.68756
+Test results --- Loss: 0.75525, Accuracy: 0.73057, Precision: 0.65358, Recall: 0.60897 F1: 0.61692, AUROC: 0.89709, AUPRC: 0.66873
+Metric score decreased (-0.626758 --> -0.632702).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 11 cost time: 20.4848690032959
+Epoch: 11, Steps: 880, | Train Loss: 0.70316
+Validation results --- Loss: 0.71580, Accuracy: 0.74486, Precision: 0.68332, Recall: 0.60628, F1: 0.62622, AUROC: 0.90661, AUPRC: 0.69236
+Test results --- Loss: 0.75087, Accuracy: 0.73674, Precision: 0.67213, Recall: 0.59388 F1: 0.61400, AUROC: 0.89796, AUPRC: 0.67314
+EarlyStopping counter: 1 out of 20
+Updating learning rate to 0.0001
+Epoch: 12 cost time: 20.30359411239624
+Epoch: 12, Steps: 880, | Train Loss: 0.69197
+Validation results --- Loss: 0.71597, Accuracy: 0.74201, Precision: 0.68666, Recall: 0.60273, F1: 0.62184, AUROC: 0.90639, AUPRC: 0.68888
+Test results --- Loss: 0.74751, Accuracy: 0.73570, Precision: 0.67633, Recall: 0.59456 F1: 0.61210, AUROC: 0.89907, AUPRC: 0.67192
+EarlyStopping counter: 2 out of 20
+Updating learning rate to 0.0001
+Epoch: 13 cost time: 20.0344557762146
+Epoch: 13, Steps: 880, | Train Loss: 0.68101
+Validation results --- Loss: 0.71938, Accuracy: 0.74338, Precision: 0.66593, Recall: 0.62057, F1: 0.63774, AUROC: 0.90590, AUPRC: 0.68687
+Test results --- Loss: 0.75277, Accuracy: 0.73183, Precision: 0.64830, Recall: 0.60222 F1: 0.61920, AUROC: 0.89811, AUPRC: 0.66989
+Metric score decreased (-0.632702 --> -0.637737).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 14 cost time: 20.15803050994873
+Epoch: 14, Steps: 880, | Train Loss: 0.67134
+Validation results --- Loss: 0.72732, Accuracy: 0.74185, Precision: 0.67298, Recall: 0.60826, F1: 0.62783, AUROC: 0.90692, AUPRC: 0.68769
+Test results --- Loss: 0.76972, Accuracy: 0.73355, Precision: 0.65775, Recall: 0.59527 F1: 0.61318, AUROC: 0.89778, AUPRC: 0.66617
+EarlyStopping counter: 1 out of 20
+Updating learning rate to 0.0001
+Epoch: 15 cost time: 20.714311838150024
+Epoch: 15, Steps: 880, | Train Loss: 0.66515
+Validation results --- Loss: 0.71567, Accuracy: 0.74262, Precision: 0.67381, Recall: 0.61566, F1: 0.62947, AUROC: 0.90742, AUPRC: 0.69130
+Test results --- Loss: 0.75401, Accuracy: 0.73446, Precision: 0.65315, Recall: 0.60318 F1: 0.61479, AUROC: 0.89897, AUPRC: 0.66626
+EarlyStopping counter: 2 out of 20
+Updating learning rate to 0.0001
+Epoch: 16 cost time: 20.366652727127075
+Epoch: 16, Steps: 880, | Train Loss: 0.65559
+Validation results --- Loss: 0.72675, Accuracy: 0.74427, Precision: 0.67848, Recall: 0.61921, F1: 0.63914, AUROC: 0.90543, AUPRC: 0.68874
+Test results --- Loss: 0.76011, Accuracy: 0.73580, Precision: 0.66195, Recall: 0.60691 F1: 0.62545, AUROC: 0.89982, AUPRC: 0.66857
+Metric score decreased (-0.637737 --> -0.639145).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 17 cost time: 21.312315702438354
+Epoch: 17, Steps: 880, | Train Loss: 0.64307
+Validation results --- Loss: 0.72368, Accuracy: 0.74389, Precision: 0.66774, Recall: 0.61284, F1: 0.62793, AUROC: 0.90694, AUPRC: 0.68961
+Test results --- Loss: 0.76567, Accuracy: 0.73204, Precision: 0.64682, Recall: 0.59539 F1: 0.60855, AUROC: 0.89799, AUPRC: 0.66618
+EarlyStopping counter: 1 out of 20
+Updating learning rate to 0.0001
+Epoch: 18 cost time: 20.803797245025635
+Epoch: 18, Steps: 880, | Train Loss: 0.63131
+Validation results --- Loss: 0.73451, Accuracy: 0.74412, Precision: 0.67113, Recall: 0.61623, F1: 0.63407, AUROC: 0.90510, AUPRC: 0.68451
+Test results --- Loss: 0.77119, Accuracy: 0.73224, Precision: 0.65196, Recall: 0.60010 F1: 0.61701, AUROC: 0.89735, AUPRC: 0.66340
+EarlyStopping counter: 2 out of 20
+Updating learning rate to 0.0001
+Epoch: 19 cost time: 20.625747442245483
+Epoch: 19, Steps: 880, | Train Loss: 0.62169
+Validation results --- Loss: 0.73856, Accuracy: 0.73691, Precision: 0.65585, Recall: 0.62726, F1: 0.63684, AUROC: 0.90411, AUPRC: 0.68280
+Test results --- Loss: 0.77890, Accuracy: 0.72713, Precision: 0.63945, Recall: 0.61217 F1: 0.62043, AUROC: 0.89658, AUPRC: 0.65966
+EarlyStopping counter: 3 out of 20
+Updating learning rate to 0.0001
+Epoch: 20 cost time: 20.6292827129364
+Epoch: 20, Steps: 880, | Train Loss: 0.61296
+Validation results --- Loss: 0.73019, Accuracy: 0.74330, Precision: 0.66496, Recall: 0.61208, F1: 0.62489, AUROC: 0.90525, AUPRC: 0.68200
+Test results --- Loss: 0.76769, Accuracy: 0.73686, Precision: 0.65344, Recall: 0.60234 F1: 0.61457, AUROC: 0.89769, AUPRC: 0.66200
+EarlyStopping counter: 4 out of 20
+Updating learning rate to 0.0001
+>>>>>>>testing : TeCh_PTB-XL_seed_44_dm_128_dp_0.0_tl_5_vl_0_bs_128_lr0.0001_aug_flip0.,frequency0.,jitter0.,mask0.2,channel0.4,drop0.4_pl_8<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Model weights deleted....
+Validation results --- Loss: 0.72680, Accuracy: 0.74427, Precision: 0.67848, Recall: 0.61921, F1: 0.63914, AUROC: 0.90543, AUPRC: 0.68874
+Test results --- Loss: 0.76010, Accuracy: 0.73580, Precision: 0.66195, Recall: 0.60691, F1: 0.62545, AUROC: 0.89982, AUPRC: 0.66857
+
+Use GPU: cuda:0
+>>>>>>>start training : TeCh_PTB-XL_seed_45_dm_128_dp_0.0_tl_5_vl_0_bs_128_lr0.0001_aug_flip0.,frequency0.,jitter0.,mask0.2,channel0.4,drop0.4_pl_8>>>>>>>>>>>>>>>>>>>>>>>>>>
+(112570, 250, 12)
+(112570,)
+(39280, 250, 12)
+(39280,)
+(39550, 250, 12)
+(39550,)
+Epoch: 1 cost time: 20.615837574005127
+Epoch: 1, Steps: 880, | Train Loss: 1.03517
+Validation results --- Loss: 0.88687, Accuracy: 0.67734, Precision: 0.63480, Recall: 0.50100, F1: 0.50519, AUROC: 0.85835, AUPRC: 0.59159
+Test results --- Loss: 0.90308, Accuracy: 0.67520, Precision: 0.59402, Recall: 0.49424 F1: 0.49752, AUROC: 0.84919, AUPRC: 0.57378
+Metric score decreased (inf --> -0.505194).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 21.09232497215271
+Epoch: 2, Steps: 880, | Train Loss: 0.88491
+Validation results --- Loss: 0.84237, Accuracy: 0.69898, Precision: 0.65880, Recall: 0.52848, F1: 0.55037, AUROC: 0.87521, AUPRC: 0.63203
+Test results --- Loss: 0.86127, Accuracy: 0.69714, Precision: 0.63849, Recall: 0.52079 F1: 0.54002, AUROC: 0.87081, AUPRC: 0.61535
+Metric score decreased (-0.505194 --> -0.550366).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 3 cost time: 20.521660327911377
+Epoch: 3, Steps: 880, | Train Loss: 0.83847
+Validation results --- Loss: 0.80292, Accuracy: 0.71217, Precision: 0.66926, Recall: 0.54702, F1: 0.55814, AUROC: 0.88084, AUPRC: 0.64477
+Test results --- Loss: 0.82243, Accuracy: 0.70574, Precision: 0.63455, Recall: 0.53697 F1: 0.54737, AUROC: 0.87499, AUPRC: 0.62602
+Metric score decreased (-0.550366 --> -0.558143).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 4 cost time: 21.581326723098755
+Epoch: 4, Steps: 880, | Train Loss: 0.81586
+Validation results --- Loss: 0.77060, Accuracy: 0.72375, Precision: 0.66163, Recall: 0.58655, F1: 0.60468, AUROC: 0.89008, AUPRC: 0.66620
+Test results --- Loss: 0.79469, Accuracy: 0.71977, Precision: 0.65098, Recall: 0.57517 F1: 0.59095, AUROC: 0.88369, AUPRC: 0.64329
+Metric score decreased (-0.558143 --> -0.604675).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 5 cost time: 21.388861179351807
+Epoch: 5, Steps: 880, | Train Loss: 0.79459
+Validation results --- Loss: 0.76272, Accuracy: 0.72867, Precision: 0.65178, Recall: 0.61129, F1: 0.62683, AUROC: 0.89386, AUPRC: 0.67284
+Test results --- Loss: 0.78510, Accuracy: 0.72410, Precision: 0.64570, Recall: 0.59619 F1: 0.61332, AUROC: 0.88767, AUPRC: 0.65163
+Metric score decreased (-0.604675 --> -0.626828).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 6 cost time: 21.6168315410614
+Epoch: 6, Steps: 880, | Train Loss: 0.77965
+Validation results --- Loss: 0.76432, Accuracy: 0.73063, Precision: 0.69299, Recall: 0.58282, F1: 0.60408, AUROC: 0.89714, AUPRC: 0.67905
+Test results --- Loss: 0.78785, Accuracy: 0.72326, Precision: 0.68128, Recall: 0.57042 F1: 0.59155, AUROC: 0.88997, AUPRC: 0.65718
+EarlyStopping counter: 1 out of 20
+Updating learning rate to 0.0001
+Epoch: 7 cost time: 21.310667991638184
+Epoch: 7, Steps: 880, | Train Loss: 0.76389
+Validation results --- Loss: 0.75320, Accuracy: 0.72879, Precision: 0.66801, Recall: 0.59494, F1: 0.59492, AUROC: 0.89603, AUPRC: 0.67161
+Test results --- Loss: 0.78117, Accuracy: 0.72235, Precision: 0.66838, Recall: 0.58761 F1: 0.58802, AUROC: 0.88854, AUPRC: 0.65273
+EarlyStopping counter: 2 out of 20
+Updating learning rate to 0.0001
+Epoch: 8 cost time: 20.92075276374817
+Epoch: 8, Steps: 880, | Train Loss: 0.74402
+Validation results --- Loss: 0.75115, Accuracy: 0.73503, Precision: 0.70038, Recall: 0.57741, F1: 0.59435, AUROC: 0.90225, AUPRC: 0.68724
+Test results --- Loss: 0.78199, Accuracy: 0.72710, Precision: 0.68106, Recall: 0.56729 F1: 0.58333, AUROC: 0.89320, AUPRC: 0.66051
+EarlyStopping counter: 3 out of 20
+Updating learning rate to 0.0001
+Epoch: 9 cost time: 21.248993158340454
+Epoch: 9, Steps: 880, | Train Loss: 0.73033
+Validation results --- Loss: 0.73593, Accuracy: 0.73798, Precision: 0.67291, Recall: 0.60244, F1: 0.62316, AUROC: 0.90061, AUPRC: 0.68021
+Test results --- Loss: 0.76590, Accuracy: 0.73029, Precision: 0.65875, Recall: 0.59096 F1: 0.61102, AUROC: 0.89270, AUPRC: 0.65973
+EarlyStopping counter: 4 out of 20
+Updating learning rate to 0.0001
+Epoch: 10 cost time: 20.69167137145996
+Epoch: 10, Steps: 880, | Train Loss: 0.71886
+Validation results --- Loss: 0.72860, Accuracy: 0.74280, Precision: 0.70620, Recall: 0.59402, F1: 0.61416, AUROC: 0.90587, AUPRC: 0.69375
+Test results --- Loss: 0.76874, Accuracy: 0.72999, Precision: 0.67261, Recall: 0.57574 F1: 0.59383, AUROC: 0.89522, AUPRC: 0.66292
+EarlyStopping counter: 5 out of 20
+Updating learning rate to 0.0001
+Epoch: 11 cost time: 21.326615571975708
+Epoch: 11, Steps: 880, | Train Loss: 0.70557
+Validation results --- Loss: 0.72549, Accuracy: 0.74061, Precision: 0.68429, Recall: 0.59588, F1: 0.61683, AUROC: 0.90530, AUPRC: 0.68888
+Test results --- Loss: 0.76057, Accuracy: 0.73287, Precision: 0.66878, Recall: 0.58594 F1: 0.60580, AUROC: 0.89683, AUPRC: 0.66649
+EarlyStopping counter: 6 out of 20
+Updating learning rate to 0.0001
+Epoch: 12 cost time: 21.396811962127686
+Epoch: 12, Steps: 880, | Train Loss: 0.69813
+Validation results --- Loss: 0.72532, Accuracy: 0.74450, Precision: 0.68455, Recall: 0.61623, F1: 0.64094, AUROC: 0.90686, AUPRC: 0.69858
+Test results --- Loss: 0.76762, Accuracy: 0.73429, Precision: 0.66617, Recall: 0.59848 F1: 0.62162, AUROC: 0.89806, AUPRC: 0.67225
+Metric score decreased (-0.626828 --> -0.640936).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 13 cost time: 20.49551224708557
+Epoch: 13, Steps: 880, | Train Loss: 0.68415
+Validation results --- Loss: 0.71085, Accuracy: 0.74539, Precision: 0.69226, Recall: 0.61497, F1: 0.63147, AUROC: 0.90784, AUPRC: 0.70003
+Test results --- Loss: 0.74774, Accuracy: 0.73575, Precision: 0.67115, Recall: 0.60122 F1: 0.61624, AUROC: 0.89907, AUPRC: 0.67121
+EarlyStopping counter: 1 out of 20
+Updating learning rate to 0.0001
+Epoch: 14 cost time: 21.517348766326904
+Epoch: 14, Steps: 880, | Train Loss: 0.67980
+Validation results --- Loss: 0.71789, Accuracy: 0.74157, Precision: 0.66622, Recall: 0.60572, F1: 0.62186, AUROC: 0.90709, AUPRC: 0.68840
+Test results --- Loss: 0.75277, Accuracy: 0.73439, Precision: 0.65829, Recall: 0.59579 F1: 0.61215, AUROC: 0.89883, AUPRC: 0.66763
+EarlyStopping counter: 2 out of 20
+Updating learning rate to 0.0001
+Epoch: 15 cost time: 21.47729253768921
+Epoch: 15, Steps: 880, | Train Loss: 0.67064
+Validation results --- Loss: 0.72792, Accuracy: 0.74043, Precision: 0.66566, Recall: 0.61619, F1: 0.63234, AUROC: 0.90470, AUPRC: 0.68936
+Test results --- Loss: 0.76381, Accuracy: 0.73171, Precision: 0.65055, Recall: 0.60189 F1: 0.61745, AUROC: 0.89618, AUPRC: 0.66370
+EarlyStopping counter: 3 out of 20
+Updating learning rate to 0.0001
+Epoch: 16 cost time: 21.556135416030884
+Epoch: 16, Steps: 880, | Train Loss: 0.65368
+Validation results --- Loss: 0.75076, Accuracy: 0.73890, Precision: 0.67419, Recall: 0.58455, F1: 0.60386, AUROC: 0.90529, AUPRC: 0.67901
+Test results --- Loss: 0.78957, Accuracy: 0.73014, Precision: 0.66210, Recall: 0.57687 F1: 0.59789, AUROC: 0.89558, AUPRC: 0.65684
+EarlyStopping counter: 4 out of 20
+Updating learning rate to 0.0001
+Epoch: 17 cost time: 21.632567644119263
+Epoch: 17, Steps: 880, | Train Loss: 0.64900
+Validation results --- Loss: 0.71710, Accuracy: 0.74244, Precision: 0.68066, Recall: 0.61005, F1: 0.62285, AUROC: 0.90767, AUPRC: 0.69419
+Test results --- Loss: 0.75657, Accuracy: 0.73368, Precision: 0.65369, Recall: 0.59725 F1: 0.60822, AUROC: 0.89698, AUPRC: 0.66319
+EarlyStopping counter: 5 out of 20
+Updating learning rate to 0.0001
+Epoch: 18 cost time: 22.119391679763794
+Epoch: 18, Steps: 880, | Train Loss: 0.63806
+Validation results --- Loss: 0.72028, Accuracy: 0.74491, Precision: 0.67002, Recall: 0.62476, F1: 0.63839, AUROC: 0.90661, AUPRC: 0.69253
+Test results --- Loss: 0.76070, Accuracy: 0.73522, Precision: 0.65322, Recall: 0.61033 F1: 0.62322, AUROC: 0.89682, AUPRC: 0.66271
+EarlyStopping counter: 6 out of 20
+Updating learning rate to 0.0001
+Epoch: 19 cost time: 19.571096658706665
+Epoch: 19, Steps: 880, | Train Loss: 0.62827
+Validation results --- Loss: 0.73453, Accuracy: 0.74585, Precision: 0.68856, Recall: 0.60230, F1: 0.61703, AUROC: 0.90719, AUPRC: 0.68852
+Test results --- Loss: 0.77643, Accuracy: 0.73631, Precision: 0.66379, Recall: 0.58888 F1: 0.60168, AUROC: 0.89688, AUPRC: 0.65986
+EarlyStopping counter: 7 out of 20
+Updating learning rate to 0.0001
+Epoch: 20 cost time: 20.252532720565796
+Epoch: 20, Steps: 880, | Train Loss: 0.61931
+Validation results --- Loss: 0.72379, Accuracy: 0.74496, Precision: 0.67964, Recall: 0.61476, F1: 0.62865, AUROC: 0.90736, AUPRC: 0.69380
+Test results --- Loss: 0.77321, Accuracy: 0.73608, Precision: 0.65115, Recall: 0.60083 F1: 0.61143, AUROC: 0.89645, AUPRC: 0.66035
+EarlyStopping counter: 8 out of 20
+Updating learning rate to 0.0001
+>>>>>>>testing : TeCh_PTB-XL_seed_45_dm_128_dp_0.0_tl_5_vl_0_bs_128_lr0.0001_aug_flip0.,frequency0.,jitter0.,mask0.2,channel0.4,drop0.4_pl_8<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Model weights deleted....
+Validation results --- Loss: 0.72527, Accuracy: 0.74450, Precision: 0.68455, Recall: 0.61623, F1: 0.64094, AUROC: 0.90686, AUPRC: 0.69858
+Test results --- Loss: 0.76761, Accuracy: 0.73429, Precision: 0.66617, Recall: 0.59848, F1: 0.62162, AUROC: 0.89806, AUPRC: 0.67225
+
+Use GPU: cuda:0
+>>>>>>>start training : TeCh_PTB-XL_seed_46_dm_128_dp_0.0_tl_5_vl_0_bs_128_lr0.0001_aug_flip0.,frequency0.,jitter0.,mask0.2,channel0.4,drop0.4_pl_8>>>>>>>>>>>>>>>>>>>>>>>>>>
+(112570, 250, 12)
+(112570,)
+(39280, 250, 12)
+(39280,)
+(39550, 250, 12)
+(39550,)
+Epoch: 1 cost time: 18.322455883026123
+Epoch: 1, Steps: 880, | Train Loss: 1.03244
+Validation results --- Loss: 0.89519, Accuracy: 0.67001, Precision: 0.61037, Recall: 0.48359, F1: 0.48676, AUROC: 0.85968, AUPRC: 0.58977
+Test results --- Loss: 0.91552, Accuracy: 0.67029, Precision: 0.62473, Recall: 0.48276 F1: 0.48598, AUROC: 0.85047, AUPRC: 0.57165
+Metric score decreased (inf --> -0.486762).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 18.657925128936768
+Epoch: 2, Steps: 880, | Train Loss: 0.88551
+Validation results --- Loss: 0.82670, Accuracy: 0.70675, Precision: 0.65506, Recall: 0.54487, F1: 0.56352, AUROC: 0.87522, AUPRC: 0.63336
+Test results --- Loss: 0.84712, Accuracy: 0.69932, Precision: 0.63984, Recall: 0.53209 F1: 0.54719, AUROC: 0.86999, AUPRC: 0.61599
+Metric score decreased (-0.486762 --> -0.563519).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 3 cost time: 19.30410408973694
+Epoch: 3, Steps: 880, | Train Loss: 0.84045
+Validation results --- Loss: 0.78417, Accuracy: 0.72133, Precision: 0.67184, Recall: 0.58002, F1: 0.59269, AUROC: 0.88610, AUPRC: 0.65838
+Test results --- Loss: 0.80751, Accuracy: 0.71244, Precision: 0.66768, Recall: 0.56581 F1: 0.57630, AUROC: 0.87952, AUPRC: 0.63734
+Metric score decreased (-0.563519 --> -0.592686).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 4 cost time: 17.504444360733032
+Epoch: 4, Steps: 880, | Train Loss: 0.80980
+Validation results --- Loss: 0.76755, Accuracy: 0.72777, Precision: 0.67371, Recall: 0.57660, F1: 0.59466, AUROC: 0.88997, AUPRC: 0.66275
+Test results --- Loss: 0.78815, Accuracy: 0.72248, Precision: 0.67257, Recall: 0.56794 F1: 0.58535, AUROC: 0.88600, AUPRC: 0.65112
+Metric score decreased (-0.592686 --> -0.594662).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 5 cost time: 20.077665090560913
+Epoch: 5, Steps: 880, | Train Loss: 0.78729
+Validation results --- Loss: 0.76100, Accuracy: 0.73078, Precision: 0.67309, Recall: 0.58979, F1: 0.61123, AUROC: 0.89379, AUPRC: 0.67327
+Test results --- Loss: 0.77620, Accuracy: 0.72834, Precision: 0.67155, Recall: 0.58207 F1: 0.60329, AUROC: 0.88984, AUPRC: 0.65871
+Metric score decreased (-0.594662 --> -0.611227).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 6 cost time: 20.54489254951477
+Epoch: 6, Steps: 880, | Train Loss: 0.76598
+Validation results --- Loss: 0.75497, Accuracy: 0.73116, Precision: 0.68983, Recall: 0.58067, F1: 0.59271, AUROC: 0.89656, AUPRC: 0.67252
+Test results --- Loss: 0.77938, Accuracy: 0.72753, Precision: 0.68563, Recall: 0.57437 F1: 0.58546, AUROC: 0.89164, AUPRC: 0.65896
+EarlyStopping counter: 1 out of 20
+Updating learning rate to 0.0001
+Epoch: 7 cost time: 19.887454509735107
+Epoch: 7, Steps: 880, | Train Loss: 0.75315
+Validation results --- Loss: 0.73127, Accuracy: 0.73732, Precision: 0.67615, Recall: 0.59466, F1: 0.61316, AUROC: 0.89975, AUPRC: 0.68324
+Test results --- Loss: 0.75323, Accuracy: 0.73355, Precision: 0.67525, Recall: 0.58651 F1: 0.60371, AUROC: 0.89552, AUPRC: 0.66627
+Metric score decreased (-0.611227 --> -0.613157).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 8 cost time: 20.048216104507446
+Epoch: 8, Steps: 880, | Train Loss: 0.73504
+Validation results --- Loss: 0.72203, Accuracy: 0.74162, Precision: 0.67887, Recall: 0.61378, F1: 0.62693, AUROC: 0.90272, AUPRC: 0.69244
+Test results --- Loss: 0.75050, Accuracy: 0.73565, Precision: 0.67387, Recall: 0.60290 F1: 0.61513, AUROC: 0.89781, AUPRC: 0.67124
+Metric score decreased (-0.613157 --> -0.626933).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 9 cost time: 20.995754718780518
+Epoch: 9, Steps: 880, | Train Loss: 0.72417
+Validation results --- Loss: 0.72713, Accuracy: 0.74140, Precision: 0.68742, Recall: 0.59385, F1: 0.61565, AUROC: 0.90439, AUPRC: 0.69213
+Test results --- Loss: 0.76489, Accuracy: 0.73284, Precision: 0.67306, Recall: 0.58067 F1: 0.60048, AUROC: 0.89636, AUPRC: 0.66928
+EarlyStopping counter: 1 out of 20
+Updating learning rate to 0.0001
+Epoch: 10 cost time: 19.2394437789917
+Epoch: 10, Steps: 880, | Train Loss: 0.71025
+Validation results --- Loss: 0.71373, Accuracy: 0.74399, Precision: 0.68228, Recall: 0.61659, F1: 0.62935, AUROC: 0.90500, AUPRC: 0.69501
+Test results --- Loss: 0.74350, Accuracy: 0.73542, Precision: 0.66944, Recall: 0.60490 F1: 0.61555, AUROC: 0.89962, AUPRC: 0.67452
+Metric score decreased (-0.626933 --> -0.629350).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 11 cost time: 20.52058744430542
+Epoch: 11, Steps: 880, | Train Loss: 0.70495
+Validation results --- Loss: 0.72032, Accuracy: 0.74282, Precision: 0.67617, Recall: 0.59750, F1: 0.61067, AUROC: 0.90358, AUPRC: 0.68523
+Test results --- Loss: 0.74880, Accuracy: 0.73532, Precision: 0.66750, Recall: 0.58834 F1: 0.60176, AUROC: 0.89729, AUPRC: 0.66871
+EarlyStopping counter: 1 out of 20
+Updating learning rate to 0.0001
+Epoch: 12 cost time: 19.739343404769897
+Epoch: 12, Steps: 880, | Train Loss: 0.68995
+Validation results --- Loss: 0.71436, Accuracy: 0.74435, Precision: 0.68858, Recall: 0.60834, F1: 0.62645, AUROC: 0.90600, AUPRC: 0.69750
+Test results --- Loss: 0.74068, Accuracy: 0.73699, Precision: 0.67677, Recall: 0.59828 F1: 0.61631, AUROC: 0.90071, AUPRC: 0.67610
+EarlyStopping counter: 2 out of 20
+Updating learning rate to 0.0001
+Epoch: 13 cost time: 20.279110431671143
+Epoch: 13, Steps: 880, | Train Loss: 0.67737
+Validation results --- Loss: 0.72003, Accuracy: 0.74450, Precision: 0.67575, Recall: 0.62471, F1: 0.64294, AUROC: 0.90693, AUPRC: 0.69843
+Test results --- Loss: 0.75037, Accuracy: 0.73542, Precision: 0.66043, Recall: 0.60865 F1: 0.62702, AUROC: 0.90112, AUPRC: 0.67544
+Metric score decreased (-0.629350 --> -0.642945).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 14 cost time: 19.832910537719727
+Epoch: 14, Steps: 880, | Train Loss: 0.67064
+Validation results --- Loss: 0.72017, Accuracy: 0.74689, Precision: 0.69810, Recall: 0.60648, F1: 0.63213, AUROC: 0.90761, AUPRC: 0.70310
+Test results --- Loss: 0.75091, Accuracy: 0.73904, Precision: 0.67959, Recall: 0.59517 F1: 0.61913, AUROC: 0.90131, AUPRC: 0.67791
+EarlyStopping counter: 1 out of 20
+Updating learning rate to 0.0001
+Epoch: 15 cost time: 20.360679864883423
+Epoch: 15, Steps: 880, | Train Loss: 0.65944
+Validation results --- Loss: 0.72581, Accuracy: 0.74310, Precision: 0.67435, Recall: 0.62786, F1: 0.64480, AUROC: 0.90738, AUPRC: 0.69811
+Test results --- Loss: 0.75683, Accuracy: 0.73489, Precision: 0.66017, Recall: 0.61034 F1: 0.62670, AUROC: 0.90110, AUPRC: 0.67396
+Metric score decreased (-0.642945 --> -0.644798).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 16 cost time: 20.522881984710693
+Epoch: 16, Steps: 880, | Train Loss: 0.65053
+Validation results --- Loss: 0.72873, Accuracy: 0.74470, Precision: 0.69415, Recall: 0.59905, F1: 0.62132, AUROC: 0.90781, AUPRC: 0.69522
+Test results --- Loss: 0.76554, Accuracy: 0.73676, Precision: 0.67446, Recall: 0.58776 F1: 0.60888, AUROC: 0.90064, AUPRC: 0.67270
+EarlyStopping counter: 1 out of 20
+Updating learning rate to 0.0001
+Epoch: 17 cost time: 20.918046236038208
+Epoch: 17, Steps: 880, | Train Loss: 0.64302
+Validation results --- Loss: 0.72136, Accuracy: 0.74450, Precision: 0.66835, Recall: 0.61413, F1: 0.63198, AUROC: 0.90750, AUPRC: 0.69187
+Test results --- Loss: 0.75705, Accuracy: 0.73611, Precision: 0.65759, Recall: 0.60626 F1: 0.62438, AUROC: 0.89959, AUPRC: 0.66998
+EarlyStopping counter: 2 out of 20
+Updating learning rate to 0.0001
+Epoch: 18 cost time: 19.965327262878418
+Epoch: 18, Steps: 880, | Train Loss: 0.62978
+Validation results --- Loss: 0.71872, Accuracy: 0.74751, Precision: 0.67961, Recall: 0.61937, F1: 0.63766, AUROC: 0.90934, AUPRC: 0.69974
+Test results --- Loss: 0.75748, Accuracy: 0.73745, Precision: 0.66213, Recall: 0.60519 F1: 0.62174, AUROC: 0.90124, AUPRC: 0.67322
+EarlyStopping counter: 3 out of 20
+Updating learning rate to 0.0001
+Epoch: 19 cost time: 21.418004274368286
+Epoch: 19, Steps: 880, | Train Loss: 0.61502
+Validation results --- Loss: 0.72827, Accuracy: 0.74448, Precision: 0.67577, Recall: 0.61563, F1: 0.63439, AUROC: 0.90809, AUPRC: 0.69764
+Test results --- Loss: 0.76759, Accuracy: 0.73679, Precision: 0.65788, Recall: 0.60246 F1: 0.61867, AUROC: 0.90005, AUPRC: 0.67012
+EarlyStopping counter: 4 out of 20
+Updating learning rate to 0.0001
+Epoch: 20 cost time: 20.36057424545288
+Epoch: 20, Steps: 880, | Train Loss: 0.61006
+Validation results --- Loss: 0.72898, Accuracy: 0.74414, Precision: 0.66467, Recall: 0.61530, F1: 0.63192, AUROC: 0.90577, AUPRC: 0.68989
+Test results --- Loss: 0.76858, Accuracy: 0.73365, Precision: 0.64942, Recall: 0.60009 F1: 0.61639, AUROC: 0.89750, AUPRC: 0.66593
+EarlyStopping counter: 5 out of 20
+Updating learning rate to 0.0001
+>>>>>>>testing : TeCh_PTB-XL_seed_46_dm_128_dp_0.0_tl_5_vl_0_bs_128_lr0.0001_aug_flip0.,frequency0.,jitter0.,mask0.2,channel0.4,drop0.4_pl_8<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Model weights deleted....
+Validation results --- Loss: 0.72576, Accuracy: 0.74310, Precision: 0.67435, Recall: 0.62786, F1: 0.64480, AUROC: 0.90738, AUPRC: 0.69811
+Test results --- Loss: 0.75684, Accuracy: 0.73489, Precision: 0.66017, Recall: 0.61034, F1: 0.62670, AUROC: 0.90110, AUPRC: 0.67396
+
+Mean accuracy: 0.7353, precision: 0.6592,recall: 0.6061, f1: 0.6244, AUROC: 0.9003, AUPRC: 0.6719
+Std accuracy: 0.0007, precision: 0.0052,recall: 0.0059, f1: 0.0027, AUROC: 0.0012, AUPRC: 0.0025
