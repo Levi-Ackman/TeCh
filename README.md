@@ -1,4 +1,3 @@
-# TeCh
 <div align="center">
   <h2><b> Code for Paper:</b></h2>
   <h2><b> Decentralized Attention Fails Centralized Signals: Rethink Transformers for Medical Time Series </b></h2>
