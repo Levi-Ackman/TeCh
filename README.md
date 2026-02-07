@@ -13,7 +13,7 @@
 ## Acknowledgement
 
 This project is constructed based on the code in repo [**Medformer**](https://github.com/DL4mHealth/Medformer).
-Thanks a lot for their amazing work!
+**Thanks a lot for their amazing work!**
 
 ***Please also star their project and cite their paper if you find this repo useful.***
 ```
