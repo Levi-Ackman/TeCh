@@ -1,5 +1,5 @@
 <div align="center">
-  <h2><b> Code for Paper:</b></h2>
+  <h2><b> Code for ICLR26 (Oral):</b></h2>
   <h2><b> Decentralized Attention Fails Centralized Signals: Rethink Transformers for Medical Time Series </b></h2>
 </div>
 
