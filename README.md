@@ -5,10 +5,24 @@
 
 ## Get Started
 
-1. Install requirements. ```pip install -r requirements.txt```
-2. Download data. You can download all datasets from **Medformer**: [datasets](https://github.com/DL4mHealth/Medformer). **All the datasets are well pre-processed** *(except for the TDBrain dataset, which requires permission first)* and can be used easily thanks to their efforts. Then, place all datasets under a folder ```./dataset```
-3. Train the model. We provide the experiment scripts of all benchmarks under the folder `./scripts`. 
-4. You can use bash commands to individually run scripts in the 'scripts' folder from the command line to obtain results for individual datasets. For example, you can use the below command line to get the result of  **APAVA**: ```bash ./scripts/APAVA.sh ``` You can find the training history and results under the './logs' folder.
+1. Install requirements.
+ ```
+pip install -r requirements.txt
+```
+
+2. Prepare data. You can download all datasets from [**Medformer**](https://github.com/DL4mHealth/Medformer). **All the datasets are well pre-processed** *(except for the TDBrain dataset, which requires permission first)* and can be used easily thanks to their efforts. Then, place all datasets under the folder
+```
+./dataset
+```
+
+4. Train the model. We provide the experiment scripts of all benchmarks under the folder
+```
+./scripts
+```
+5. For example, you can use the command line  below to get the result of  **APAVA**. The whole training history is under the ***'./logs'*** folder.
+```
+bash ./scripts/APAVA.sh
+```
 
 ## Acknowledgement
 
