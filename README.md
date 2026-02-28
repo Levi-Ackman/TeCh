@@ -25,7 +25,7 @@
 <img width="1166" height="420" alt="image" src="https://github.com/user-attachments/assets/f20f535d-1eba-4858-8637-abfca6c0fb0a" />
 </p>
 
-### 3. TeCh: a unified CoTAR-based framework that captures temporal, channel, or joint dependencies via adaptive tokenization.
+### 3. TeCh: a unified CoTAR-based framework that captures temporal, channel, or both via adaptive tokenization.
 
 <p align="center">
 <img width="1156" height="543" alt="image" src="https://github.com/user-attachments/assets/89b07193-142b-4241-8ca4-894172db9341" />
