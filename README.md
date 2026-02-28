@@ -3,8 +3,39 @@
   <h2><b> Decentralized Attention Fails Centralized Signals: Rethink Transformers for Medical Time Series </b></h2>
 </div>
 
+<div align="center">
+
+**[<a href="https://openreview.net/forum?id=oZJFY2BQt2">Paper</a>]**
+**[<a href="https://zhuanlan.zhihu.com/p/1979237006845441203">中文解读1</a>]**
+**[<a href="https://paper.dou.ac/p/2602.18473">中文解读2</a>]**
+
+</div>
+
 ## Introduction
 
+### 1. Mismatch between centralized MedTS signals and decentralized Attention.
+
+<p align="center">
+<img width="1153" height="518" alt="image" src="https://github.com/user-attachments/assets/807c224c-1f43-45d9-906e-2848aed4e993" />
+</p>
+
+### 2. Reprogram decentralized Attention into the centralized CoTAR block.
+
+<p align="center">
+<img width="1166" height="420" alt="image" src="https://github.com/user-attachments/assets/f20f535d-1eba-4858-8637-abfca6c0fb0a" />
+</p>
+
+### 3. TeCh: a unified CoTAR-based framework that captures temporal, channel, or joint dependencies via adaptive tokenization.
+
+<p align="center">
+<img width="1156" height="543" alt="image" src="https://github.com/user-attachments/assets/89b07193-142b-4241-8ca4-894172db9341" />
+</p>
+
+### 4. Improved effectiveness, higher efficiency, and stronger robustness.
+
+<p align="center">
+<img width="1146" height="599" alt="image" src="https://github.com/user-attachments/assets/c6bc4a55-9aa1-46a6-90b9-eafe2ac60840" />
+</p>
 
 ## Usage
 
